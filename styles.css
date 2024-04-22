@@ -1,0 +1,36 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h1, h2 {
+  color: #ffffff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.products, .orders {
+  margin-top: 10px;
+}
+
+.product, .order {
+  background-color: #1e1e1e;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.product span, .order span {
+  font-weight: bold;
+}
+
+.product::after, .order::after {
+  content: "";
+  display: block;
+  clear: both;
+}
